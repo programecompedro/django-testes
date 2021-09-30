@@ -4,9 +4,26 @@
     No meu Projeto
 </p>
 
+<p>
+    #### O que são Testes Unitários?
+        - Um metodo de teste de software que valida se uma funcionalidade está ou não pronta para uso
+    #### Bibliotecas Importantes
+        - coverage==5.5 (Esse cara fala o que tem que ser testado)
+        - model-mommy==2.0.0 (Esse cara vai automatizar criação de objetos nos models)
+</p>
+    ### Alguns comandos
+        coverage run manage.py test
+        coverage report
+        coverage html
+        cd htmlcov/
+        python -m http.server
+
+Adiciona no gitignora /htmlcov/* pra não enviar os arquivos gerados
+
+
 ### Features
 
-- [ ] Configurando os testes
+- [ x ] Configurando os testes
 - [ ] Testando Models
 - [ ] Testando Formulários
 - [ ] Testando Views
