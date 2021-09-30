@@ -1,21 +1,15 @@
-<h1 align="center">Django Conceitos Avançados</h1>
+<h1 align="center">Django Testes</h1>
 <p align="center">
-    Projeto para praticar os Conceitos mais avançados do Django<br>
-    Aprendendo a lidar com Class Based Views(CBV), formulários CBV,
-    Contexts, Models  e boas práticas, será utilizado o PostgreSQL
-    <br>
-    Está implementado em: https://fusion-demeusoftware.herokuapp.com/
-    Admin
-    Usuário: pedro
-    Senha: root
+    Aprendendo os Conceitos de Testes e aplicando
+    No meu Projeto
 </p>
 
 ### Features
 
-- [x] Class Based View 
-- [x] Envio de E-mail
-- [x] Conceitos de Herança 
-- [x] Produção Heroku
+- [ ] Configurando os testes
+- [ ] Testando Models
+- [ ] Testando Formulários
+- [ ] Testando Views
 
 MIT License
 
